@@ -1,0 +1,24 @@
+{
+  "name": "assignmentdigitroons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.18.1",
+    "apollo-server-express": "^2.18.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "imdb": "^1.1.0",
+    "imdb-api": "^4.2.0",
+    "knex": "^0.21.6",
+    "pg": "^8.3.3"
+  }
+}
